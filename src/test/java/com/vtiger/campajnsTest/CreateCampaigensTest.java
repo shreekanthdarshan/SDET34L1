@@ -11,7 +11,7 @@ import com.vtiger.ObjectRep.CampaignInforamationPage;
 import com.vtiger.ObjectRep.CampaignPage;
 import com.vtiger.ObjectRep.CreateNewCampignPage;
 
-public class CreateCampaigensTest extends BaseClass {
+public class CreateCampaigensTest extends BaseClass 
 	@Test(groups={"sanity","regression"})
 	public  void createCampaigensTest() throws IOException, InterruptedException {
 		String campaignmae =msExcelUtility.getDataFromExcel("Campigens", 2, 1);		
